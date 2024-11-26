@@ -1,0 +1,61 @@
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  
+  .feature_option {
+    border: solid;
+    cursor: pointer;
+  }
+  
+  .tradingview-widget-container {
+    height: 600px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #tradingview_a93d0 {
+    height: 100%;
+    width: 100%;
+    border: solid;
+    border-color: black;
+    border-radius: 2px;
+  }
+  
+  .graph {
+    height: 500px;
+    width: 1000px;
+    vertical-align: middle;
+  }
+
+  .tradingview-website{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .news_division{
+    height: 380px;
+    width: 600px;
+    border: solid;
+    border-color: black;
+    border-radius: 2px;
+  }
+
+  .predicted_price_division{
+    height: 200px;
+    width: 600px;
+    border: solid;
+    border-color: black;
+    border-radius: 2px;
+  }
+  

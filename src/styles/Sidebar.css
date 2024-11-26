@@ -1,0 +1,49 @@
+/* Sidebar */
+.w3-sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3e8e41;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .w3-sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .w3-sidebar a:hover {
+    color: #000000;
+  }
+  
+  .w3-sidebar .w3-bar-item {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  #w3-main {
+    transition: margin-left 0.4s;
+    padding: 16px;
+  }
+  
+  /* Open Sidebar Button */
+  .w3-button {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Transition for opening and closing sidebar */
+  .w3-bar-block .w3-bar-item {
+    padding: 10px 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  

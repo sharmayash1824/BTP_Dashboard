@@ -1,0 +1,113 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo a {
+    display: block; /* Ensure the image container behaves like a block element */
+  }
+  
+  .navbar-logo img {
+    height: 40px;  /* Maintains the aspect ratio of the logo */
+    width: 150px;
+  }
+  
+  /* Navbar Links */
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover {
+    color: #000000;
+  }
+  
+  /* Search Bar */
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .search-container button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #575757;
+  }
+  
+  /* Profile Icon */
+  .my-profile-button {
+    background-color: #4CAF50; /* Green */
+    border: solid;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .my-profile-button:hover {
+    background-color: #3e8e41; /* Darker Green on hover */
+  }
+  
